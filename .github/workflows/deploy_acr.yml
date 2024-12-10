@@ -1,4 +1,4 @@
-name: Deploy Azure Resources
+name: Deploy ACR Resource
 
 on:
   workflow_dispatch:
@@ -22,4 +22,6 @@ jobs:
           az deployment group create \
             --resource-group BCSAI2024-DEVOPS-STUDENTS-B-DEV \
             --template-file modules/acr.bicep \
-            --parameters @parameters.json
+            --parameters @parameters.json \
+            --parameters acrAdminUserEnabled=true \
+                         name="testacr-kelectriciteh"
