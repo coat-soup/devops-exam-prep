@@ -6,13 +6,13 @@
         "value": "West Europe"
       },
       "containerRegistryName": {
-        "value": "myContainerRegistry"
+        "value": "testacr-kelectriciteh"
       },
       "servicePlanName": {
-        "value": "myLinuxServicePlan"
+        "value": "testasp-kelectriciteh"
       },
       "webAppName": {
-        "value": "myWebApp"
+        "value": "testapp-kelectriciteh"
       },
       "containerRegistryImageName": {
         "value": "flask-test"
