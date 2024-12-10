@@ -22,6 +22,6 @@ jobs:
       with:
         inlineScript: |
           az deployment group create \
-            --resource-group aguadamillas_students_1 \
+            --resource-group BCSAI2024-DEVOPS-STUDENTS-B-DEV \
             --template-file main.bicep \
             --parameters @parameters.json
