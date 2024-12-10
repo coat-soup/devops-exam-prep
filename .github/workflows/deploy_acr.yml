@@ -23,5 +23,5 @@ jobs:
             --resource-group BCSAI2024-DEVOPS-STUDENTS-B-DEV \
             --template-file modules/acr.bicep \
             --parameters acrAdminUserEnabled=true \
-                         name="testacr-kelectriciteh" \
+                         name="testacrkelectriciteh" \
                          location="West Europe"

@@ -6,13 +6,13 @@
         "value": "West Europe"
       },
       "containerRegistryName": {
-        "value": "testacr-kelectriciteh"
+        "value": "testacrkelectriciteh"
       },
       "servicePlanName": {
-        "value": "testasp-kelectriciteh"
+        "value": "testaspkelectriciteh"
       },
       "webAppName": {
-        "value": "testapp-kelectriciteh"
+        "value": "testappkelectriciteh"
       },
       "containerRegistryImageName": {
         "value": "flask-test"
