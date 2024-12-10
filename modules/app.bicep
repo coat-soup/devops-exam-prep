@@ -18,7 +18,8 @@ resource webApp 'Microsoft.Web/sites@2022-03-01' = {
 }
 
 resource appSettings 'Microsoft.Web/sites/config@2022-03-01' = {
-  name: name
+  parent: webApp
+  name: 'web'
   properties: appSettingsKeyValuePairs
 }
 
