@@ -25,3 +25,5 @@ jobs:
             --resource-group BCSAI2024-DEVOPS-STUDENTS-B-DEV \
             --template-file main.bicep \
             --parameters @parameters.json
+            --parameters containerRegistryUsername=${{ secrets.ACR_USERNAME }} \
+                           containerRegistryPassword=${{ secrets.ACR_PASSWORD }} \
