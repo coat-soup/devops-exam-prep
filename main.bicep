@@ -1,3 +1,14 @@
+// File: main.bicep
+
+param location string
+param containerRegistryName string
+param servicePlanName string
+param webAppName string
+param containerRegistryImageName string
+param containerRegistryImageVersion string
+param containerRegistryUsername string
+param containerRegistryPassword string
+
 module containerRegistry 'modules/acr.bicep' = {
   name: 'containerRegistryDeployment'
   params: {
